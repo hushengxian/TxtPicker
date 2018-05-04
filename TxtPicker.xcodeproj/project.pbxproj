@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE2FD24B209D28E200285D2B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2FD24A209D28E200285D2B /* AppDelegate.m */; };
+		FE2FD24E209D28E200285D2B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2FD24D209D28E200285D2B /* ViewController.m */; };
+		FE2FD251209D28E200285D2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE2FD24F209D28E200285D2B /* Main.storyboard */; };
+		FE2FD253209D28E200285D2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE2FD252209D28E200285D2B /* Assets.xcassets */; };
+		FE2FD256209D28E200285D2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE2FD254209D28E200285D2B /* LaunchScreen.storyboard */; };
+		FE2FD259209D28E200285D2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2FD258209D28E200285D2B /* main.m */; };
+		FE2FD263209D28E200285D2B /* TxtPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2FD262209D28E200285D2B /* TxtPickerTests.m */; };
+		FE2FD26E209D28E200285D2B /* TxtPickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2FD26D209D28E200285D2B /* TxtPickerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE2FD25F209D28E200285D2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE2FD23E209D28E200285D2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE2FD245209D28E200285D2B;
+			remoteInfo = TxtPicker;
+		};
+		FE2FD26A209D28E200285D2B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE2FD23E209D28E200285D2B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE2FD245209D28E200285D2B;
+			remoteInfo = TxtPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE2FD246209D28E200285D2B /* TxtPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TxtPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE2FD249209D28E200285D2B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE2FD24A209D28E200285D2B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE2FD24C209D28E200285D2B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FE2FD24D209D28E200285D2B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FE2FD250209D28E200285D2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE2FD252209D28E200285D2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE2FD255209D28E200285D2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE2FD257209D28E200285D2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE2FD258209D28E200285D2B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE2FD25E209D28E200285D2B /* TxtPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TxtPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE2FD262209D28E200285D2B /* TxtPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TxtPickerTests.m; sourceTree = "<group>"; };
+		FE2FD264209D28E200285D2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE2FD269209D28E200285D2B /* TxtPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TxtPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE2FD26D209D28E200285D2B /* TxtPickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TxtPickerUITests.m; sourceTree = "<group>"; };
+		FE2FD26F209D28E200285D2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE2FD243209D28E200285D2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE2FD25B209D28E200285D2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE2FD266209D28E200285D2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE2FD23D209D28E200285D2B = {
+			isa = PBXGroup;
+			children = (
+				FE2FD248209D28E200285D2B /* TxtPicker */,
+				FE2FD261209D28E200285D2B /* TxtPickerTests */,
+				FE2FD26C209D28E200285D2B /* TxtPickerUITests */,
+				FE2FD247209D28E200285D2B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE2FD247209D28E200285D2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE2FD246209D28E200285D2B /* TxtPicker.app */,
+				FE2FD25E209D28E200285D2B /* TxtPickerTests.xctest */,
+				FE2FD269209D28E200285D2B /* TxtPickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE2FD248209D28E200285D2B /* TxtPicker */ = {
+			isa = PBXGroup;
+			children = (
+				FE2FD249209D28E200285D2B /* AppDelegate.h */,
+				FE2FD24A209D28E200285D2B /* AppDelegate.m */,
+				FE2FD24C209D28E200285D2B /* ViewController.h */,
+				FE2FD24D209D28E200285D2B /* ViewController.m */,
+				FE2FD24F209D28E200285D2B /* Main.storyboard */,
+				FE2FD252209D28E200285D2B /* Assets.xcassets */,
+				FE2FD254209D28E200285D2B /* LaunchScreen.storyboard */,
+				FE2FD257209D28E200285D2B /* Info.plist */,
+				FE2FD258209D28E200285D2B /* main.m */,
+			);
+			path = TxtPicker;
+			sourceTree = "<group>";
+		};
+		FE2FD261209D28E200285D2B /* TxtPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE2FD262209D28E200285D2B /* TxtPickerTests.m */,
+				FE2FD264209D28E200285D2B /* Info.plist */,
+			);
+			path = TxtPickerTests;
+			sourceTree = "<group>";
+		};
+		FE2FD26C209D28E200285D2B /* TxtPickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FE2FD26D209D28E200285D2B /* TxtPickerUITests.m */,
+				FE2FD26F209D28E200285D2B /* Info.plist */,
+			);
+			path = TxtPickerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE2FD245209D28E200285D2B /* TxtPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE2FD272209D28E200285D2B /* Build configuration list for PBXNativeTarget "TxtPicker" */;
+			buildPhases = (
+				FE2FD242209D28E200285D2B /* Sources */,
+				FE2FD243209D28E200285D2B /* Frameworks */,
+				FE2FD244209D28E200285D2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TxtPicker;
+			productName = TxtPicker;
+			productReference = FE2FD246209D28E200285D2B /* TxtPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE2FD25D209D28E200285D2B /* TxtPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE2FD275209D28E200285D2B /* Build configuration list for PBXNativeTarget "TxtPickerTests" */;
+			buildPhases = (
+				FE2FD25A209D28E200285D2B /* Sources */,
+				FE2FD25B209D28E200285D2B /* Frameworks */,
+				FE2FD25C209D28E200285D2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE2FD260209D28E200285D2B /* PBXTargetDependency */,
+			);
+			name = TxtPickerTests;
+			productName = TxtPickerTests;
+			productReference = FE2FD25E209D28E200285D2B /* TxtPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FE2FD268209D28E200285D2B /* TxtPickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE2FD278209D28E200285D2B /* Build configuration list for PBXNativeTarget "TxtPickerUITests" */;
+			buildPhases = (
+				FE2FD265209D28E200285D2B /* Sources */,
+				FE2FD266209D28E200285D2B /* Frameworks */,
+				FE2FD267209D28E200285D2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE2FD26B209D28E200285D2B /* PBXTargetDependency */,
+			);
+			name = TxtPickerUITests;
+			productName = TxtPickerUITests;
+			productReference = FE2FD269209D28E200285D2B /* TxtPickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE2FD23E209D28E200285D2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = saint;
+				TargetAttributes = {
+					FE2FD245209D28E200285D2B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					FE2FD25D209D28E200285D2B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FE2FD245209D28E200285D2B;
+					};
+					FE2FD268209D28E200285D2B = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FE2FD245209D28E200285D2B;
+					};
+				};
+			};
+			buildConfigurationList = FE2FD241209D28E200285D2B /* Build configuration list for PBXProject "TxtPicker" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE2FD23D209D28E200285D2B;
+			productRefGroup = FE2FD247209D28E200285D2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE2FD245209D28E200285D2B /* TxtPicker */,
+				FE2FD25D209D28E200285D2B /* TxtPickerTests */,
+				FE2FD268209D28E200285D2B /* TxtPickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE2FD244209D28E200285D2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE2FD256209D28E200285D2B /* LaunchScreen.storyboard in Resources */,
+				FE2FD253209D28E200285D2B /* Assets.xcassets in Resources */,
+				FE2FD251209D28E200285D2B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE2FD25C209D28E200285D2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE2FD267209D28E200285D2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE2FD242209D28E200285D2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE2FD24E209D28E200285D2B /* ViewController.m in Sources */,
+				FE2FD259209D28E200285D2B /* main.m in Sources */,
+				FE2FD24B209D28E200285D2B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE2FD25A209D28E200285D2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE2FD263209D28E200285D2B /* TxtPickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE2FD265209D28E200285D2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE2FD26E209D28E200285D2B /* TxtPickerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE2FD260209D28E200285D2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE2FD245209D28E200285D2B /* TxtPicker */;
+			targetProxy = FE2FD25F209D28E200285D2B /* PBXContainerItemProxy */;
+		};
+		FE2FD26B209D28E200285D2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE2FD245209D28E200285D2B /* TxtPicker */;
+			targetProxy = FE2FD26A209D28E200285D2B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE2FD24F209D28E200285D2B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE2FD250209D28E200285D2B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE2FD254209D28E200285D2B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE2FD255209D28E200285D2B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE2FD270209D28E200285D2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FE2FD271209D28E200285D2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE2FD273209D28E200285D2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TxtPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HSX.TxtPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE2FD274209D28E200285D2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TxtPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HSX.TxtPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FE2FD276209D28E200285D2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TxtPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HSX.TxtPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TxtPicker.app/TxtPicker";
+			};
+			name = Debug;
+		};
+		FE2FD277209D28E200285D2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TxtPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HSX.TxtPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TxtPicker.app/TxtPicker";
+			};
+			name = Release;
+		};
+		FE2FD279209D28E200285D2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TxtPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HSX.TxtPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TxtPicker;
+			};
+			name = Debug;
+		};
+		FE2FD27A209D28E200285D2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TxtPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HSX.TxtPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TxtPicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE2FD241209D28E200285D2B /* Build configuration list for PBXProject "TxtPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE2FD270209D28E200285D2B /* Debug */,
+				FE2FD271209D28E200285D2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE2FD272209D28E200285D2B /* Build configuration list for PBXNativeTarget "TxtPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE2FD273209D28E200285D2B /* Debug */,
+				FE2FD274209D28E200285D2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE2FD275209D28E200285D2B /* Build configuration list for PBXNativeTarget "TxtPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE2FD276209D28E200285D2B /* Debug */,
+				FE2FD277209D28E200285D2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE2FD278209D28E200285D2B /* Build configuration list for PBXNativeTarget "TxtPickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE2FD279209D28E200285D2B /* Debug */,
+				FE2FD27A209D28E200285D2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE2FD23E209D28E200285D2B /* Project object */;
+}
