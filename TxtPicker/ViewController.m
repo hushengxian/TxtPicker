@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "TxtPicker.h"
 
-@interface ViewController ()
+@interface ViewController ()<TxtPickerDelegate>
+
+@property (nonatomic, strong) TxtPicker * txtPicker;
 
 @end
 
@@ -17,6 +20,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.txtPicker = [[TxtPicker alloc] initWithArr:@[@"1",@"2",@"3"]];
+    self.txtPicker.txtPickerDelegate = self;
+    [self.view addSubview:self.txtPicker];
+}
+
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [self.txtPicker becomeFirstResponder];
+}
+
+#pragma mark TxtPickerDelegate
+
+-(void)selectedWithStr:(NSString *)str row:(NSInteger)row{
+    NSLog(@"\n str = %@, \n row=%ld",str,row);
 }
 
 

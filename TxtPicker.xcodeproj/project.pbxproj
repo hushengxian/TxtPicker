@@ -15,6 +15,7 @@
 		FE2FD259209D28E200285D2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2FD258209D28E200285D2B /* main.m */; };
 		FE2FD263209D28E200285D2B /* TxtPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2FD262209D28E200285D2B /* TxtPickerTests.m */; };
 		FE2FD26E209D28E200285D2B /* TxtPickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2FD26D209D28E200285D2B /* TxtPickerUITests.m */; };
+		FE2FD280209D30D400285D2B /* TxtPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2FD27F209D30D400285D2B /* TxtPicker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		FE2FD269209D28E200285D2B /* TxtPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TxtPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE2FD26D209D28E200285D2B /* TxtPickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TxtPickerUITests.m; sourceTree = "<group>"; };
 		FE2FD26F209D28E200285D2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE2FD27E209D30D400285D2B /* TxtPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TxtPicker.h; sourceTree = "<group>"; };
+		FE2FD27F209D30D400285D2B /* TxtPicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TxtPicker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				FE2FD254209D28E200285D2B /* LaunchScreen.storyboard */,
 				FE2FD257209D28E200285D2B /* Info.plist */,
 				FE2FD258209D28E200285D2B /* main.m */,
+				FE2FD27E209D30D400285D2B /* TxtPicker.h */,
+				FE2FD27F209D30D400285D2B /* TxtPicker.m */,
 			);
 			path = TxtPicker;
 			sourceTree = "<group>";
@@ -265,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE2FD280209D30D400285D2B /* TxtPicker.m in Sources */,
 				FE2FD24E209D28E200285D2B /* ViewController.m in Sources */,
 				FE2FD259209D28E200285D2B /* main.m in Sources */,
 				FE2FD24B209D28E200285D2B /* AppDelegate.m in Sources */,
